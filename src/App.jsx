@@ -1,14 +1,15 @@
 
 import React, { useState, useMemo } from 'react';
 
-import PeacockDesignSmall from './assets/Peacock Design.jpeg';
-import BigSwastikFlower from './assets/Big Swastik Flower.jpeg';
-import SmallStarFlower from './assets/Small Star Flower.jpeg';
-import LargeRedYellow8PetalFlower from './assets/Large Red & Yellow 8-Petal Flower1.jpeg';
-import WelcomeDoorMat from './assets/Welcome Door Mat.jpeg';
-import PecockDesignLarge from './assets/Grand Peacock Rangoli (large).jpeg';
-import PeacockSmall from './assets/Peacock (Small).jpeg';
-import FlowerStairMatsSet from './assets/Flower Stair Mats (Set).jpeg';
+import PeacockDesignSmall from './assets/PeacockDesign.jpeg';
+import BigSwastikFlower from './assets/BigSwastikFlower.jpeg';
+import SmallStarFlower from './assets/SmallStarFlower.jpeg';
+import LargeRedYellow8PetalFlower from './assets/LargeRed&Yellow8PetalFlower1.jpeg';
+import WelcomeDoorMat from './assets/WelcomeDoorMat.jpeg';
+import PecockDesignLarge from './assets/GrandPeacockLArge.jpeg';
+// import ssm from "./assets/ssm.jpeg"/;
+import PeacockSmall from './assets/PeacockSmall.jpeg';
+import FlowerStairMatsSet from './assets/FlowerStairMatsSet.jpeg';
 import './index.css' // Tailwind CSS styles (ensure Tailwind is set up in your project  
 
 
