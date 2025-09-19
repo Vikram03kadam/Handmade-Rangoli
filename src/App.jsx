@@ -163,7 +163,7 @@ const App = () => {
             <div className="max-w-4xl w-full bg-white shadow-2xl rounded-3xl p-6 sm:p-12 my-8 border-4 border-pink-200">
                 <header className="text-center mb-10">
                     <h1 className="text-5xl font-extrabold text-pink-700 leading-tight tracking-wide sm:text-6xl animate-fade-in">
-                        <span role="img" aria-label="sparkles" className="mr-2">✨</span> Om Sai Rangoli Creations <span role="img" aria-label="sparkles" className="ml-2">✨</span>
+                        <span role="img" aria-label="sparkles" className="mr-2">✨</span> Sanjana Kodag's Rangoli Creations <span role="img" aria-label="sparkles" className="ml-2">✨</span>
                     </h1>
                     <p className="mt-4 text-lg text-purple-600 font-medium">
                         Celebrate with our stunning, reusable Rangoli mats. Perfect for every festive occasion! 🏡
@@ -244,8 +244,17 @@ const App = () => {
                                 <input type="text" name="name" placeholder="Your Full Name" value={formData.name} onChange={handleInputChange} required className="w-full px-5 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow" />
                                 <input type="tel" name="whatsapp" placeholder="Your WhatsApp Number" value={formData.whatsapp} onChange={handleInputChange} required className="w-full px-5 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow" />
                                 <textarea name="address" placeholder="Full Delivery Address (including Pincode)" value={formData.address} onChange={handleInputChange} required rows="4" className="w-full px-5 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow" />
-
+                                
                                 <div className="space-y-4">
+                                    <button
+                                        type="submit"
+                                        disabled={!isFormValid}
+                                        className="w-full px-6 py-4 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
+                                    >
+                                        <span className="flex items-center justify-center gap-2">
+                                            Submit Order
+                                        </span>
+                                    </button>
                                     <button
                                         type="button"
                                         onClick={handleWhatsAppClick}
