@@ -10,6 +10,8 @@ import PecockDesignLarge from './assets/GrandPeacockLArge.jpeg';
 // import ssm from "./assets/ssm.jpeg"/;
 import PeacockSmall from './assets/PeacockSmall.jpeg';
 import FlowerStairMatsSet from './assets/FlowerStairMatsSet.jpeg';
+import KalashDesign from './assets/KalashDesign.jpeg';
+import ToranDesign from './assets/ToranDesign.jpeg';
 import './index.css' // Tailwind CSS styles (ensure Tailwind is set up in your project  
 
 
@@ -19,15 +21,19 @@ import './index.css' // Tailwind CSS styles (ensure Tailwind is set up in your p
 const App = () => { 
   // Static product data
   const initialProducts = [
-    { id: '1', name: 'Small Star Flower', price: 150, imageUrl: SmallStarFlower, description: 'A beautiful flower with Swastick .' },
-    { id: '2', name: 'Big Swastik Flower', price: 300, imageUrl: BigSwastikFlower, description: 'A vibrant flower with beautiful orange and white petals.' },
+    { id: '1', name: 'Kalash Design', price: 250, imageUrl: KalashDesign, description: 'Auspicious Kalash rangoli with Swastik, coconut, and mango leaves.' },
+    { id: '2', name: 'Toran Design', price: 350, imageUrl: ToranDesign, description: 'Traditional toran  with Lord face, and golden bells for  Navratri festive decoration.' },
 
-    { id: '3', name: 'Large Red & Yellow 8-Petal Flower', price: 300, imageUrl: LargeRedYellow8PetalFlower, description: 'A large, bold flower that makes a statement.' },
-    { id: '4', name: 'Welcome ("सुस्वागतम्") Door Mat', price: 400, imageUrl: WelcomeDoorMat , description: 'A traditional "Welcome" mat for your doorstep.' },
-    { id: '5', name: 'Peacock Design (large)', price: 650, imageUrl: PeacockDesignSmall, description: 'An elegant peacock design, perfect for smaller spaces.' },
-    { id: '6', name: 'Grand Peacock Rangoli (large)', price: 650, imageUrl: PecockDesignLarge, description: 'A grand and detailed peacock rangoli to impress your guests.' },
-    { id: '7', name: 'Peacock (Small)', price: 550, imageUrl: PeacockSmall, description: 'A unique mandala design with a peacock at its center.' },
-    { id: '8', name: 'Flower Stair Mats (Set)', price: 700, imageUrl: FlowerStairMatsSet, description: 'A set of multiple flower mats for decorating your stairs.' },
+
+    { id: '3', name: 'Small Star Flower', price: 150, imageUrl: SmallStarFlower, description: 'A beautiful flower with Swastick .' },
+    { id: '4', name: 'Big Swastik Flower', price: 300, imageUrl: BigSwastikFlower, description: 'A vibrant flower with beautiful orange and white petals.' },
+
+    { id: '5', name: 'Large Red & Yellow 8-Petal Flower', price: 300, imageUrl: LargeRedYellow8PetalFlower, description: 'A large, bold flower that makes a statement.' },
+    { id: '6', name: 'Welcome ("सुस्वागतम्") Door Mat', price: 400, imageUrl: WelcomeDoorMat , description: 'A traditional "Welcome" mat for your doorstep.' },
+    { id: '7', name: 'Peacock Design (large)', price: 650, imageUrl: PeacockDesignSmall, description: 'An elegant peacock design, perfect for smaller spaces.' },
+    { id: '8', name: 'Grand Peacock Rangoli (large)', price: 650, imageUrl: PecockDesignLarge, description: 'A grand and detailed peacock rangoli to impress your guests.' },
+    { id: '9', name: 'Peacock (Small)', price: 550, imageUrl: PeacockSmall, description: 'A unique mandala design with a peacock at its center.' },
+    { id: '10', name: 'Flower Stair Mats (Set)', price: 700, imageUrl: FlowerStairMatsSet, description: 'A set of multiple flower mats for decorating your stairs.' },
   ];
 
   // State for the list of products
