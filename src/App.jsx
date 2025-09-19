@@ -163,7 +163,7 @@ const App = () => {
             <div className="max-w-4xl w-full bg-white shadow-2xl rounded-3xl p-6 sm:p-12 my-8 border-4 border-pink-200">
                 <header className="text-center mb-10">
                     <h1 className="text-5xl font-extrabold text-pink-700 leading-tight tracking-wide sm:text-6xl animate-fade-in">
-                        <span role="img" aria-label="sparkles" className="mr-2">✨</span> Sanjana Kodag's Rangoli Creations <span role="img" aria-label="sparkles" className="ml-2">✨</span>
+                        <span role="img" aria-label="sparkles" className="mr-2">✨</span> Om Sai  Rangoli Creations <span role="img" aria-label="sparkles" className="ml-2">✨</span>
                     </h1>
                     <p className="mt-4 text-lg text-purple-600 font-medium">
                         Celebrate with our stunning, reusable Rangoli mats. Perfect for every festive occasion! 🏡
