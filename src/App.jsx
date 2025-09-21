@@ -11,6 +11,7 @@ import KalashDesign from './assets/KalashDesign.jpeg';
 import ToranDesign from './assets/ToranDesign.jpeg';
 import RoundFlowerRangoli from './assets/RoundFlowerRangoli.jpeg';
 import StarShapedRangoli from './assets/Star-shapedrangoli.jpeg';
+import LotusDesign  from './assets/LotusDesign.jpeg';
 import './index.css';
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
     const initialProducts = [
         { id: '1', name: 'Kalash Design', price: 250, imageUrl: KalashDesign, description: 'Auspicious Kalash rangoli with Swastik, coconut, and mango leaves.' },
         { id: '2', name: 'Toran Design', price: 350, imageUrl: ToranDesign, description: 'Traditional toran with Lord face, and golden bells for Navratri festive decoration.' },
+                { id: '12', name: 'Lotus Design', price: 150, imageUrl: LotusDesign, description: 'Lotus Flower Design for Navratri festive decoration.' },
+
         { id: '11', name: 'Round Flower Rangoli', price: 1600, imageUrl: RoundFlowerRangoli, description: '3*3 feet Vibrant circular rangoli with multi-colored layered petals and a bright floral center.' },
         { id: '12', name: 'Star shaped rangoli', price: 150, imageUrl: StarShapedRangoli, description: 'Star-shaped rangoli with white and yellow florets, outlined with magenta petals and a circular center.' },
         { id: '3', name: 'Small Star Flower', price: 150, imageUrl: SmallStarFlower, description: 'A beautiful flower with Swastick.' },
