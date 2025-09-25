@@ -1,12 +1,11 @@
 
 import React, { useRef ,useState,useEffect,useMemo} from 'react';
 import CornerFlower  from './assets/CornerFlower.jpeg';
-//import YellowOrangeToran from '.assets/YellowOrangeToran.jpeg';
 
 import SmallStarFlower from './assets/SmallStarFlower.jpeg';
 import LargeRedYellow8PetalFlower from './assets/LargeRed&Yellow8PetalFlower1.jpeg';
 import WelcomeDoorMat from './assets/WelcomeDoorMat.jpeg';
-import PecockDesignLarge from './assets/GrandPeacockLArge.jpeg';
+import PecockDesign from './assets/GrandPeacockLArge.jpeg';
 import PeacockSmall from './assets/PeacockSmall.jpeg';
 import FlowerStairMatsSet from './assets/FlowerStairMatsSet.jpeg';
 import KalashDesign from './assets/KalashDesign.jpeg';
@@ -16,13 +15,14 @@ import StarShapedRangoli from './assets/Star-shapedrangoli.jpeg';
 import LotusDesign  from './assets/LotusDesign.jpeg';
 import DandiyaImage from './assets/DandiyaImage.jpeg';
 import BigSwastikFlower from './assets/BigSwastikFlower.jpeg';
- import PeacockDesignSmall from './assets/PeacockSmall.jpeg';
-//import DandiyaImages from './assets/DandiyaImages.jpeg';
+ import PeacockDesignSmall from './assets/PeacockDesign.jpeg';
+import DoorEntarance from './assets/DoorEntarnceBorder.jpeg';
 import CornerFlower1 from './assets/CornerFlower.jpeg';
-//import CornerFlower  from  './assets/CornerFlower.jpeg';
-//import YellowOrangeToran from "./assets/YellowOrangeToran.jpeg";
+import MulticolorFlower  from  './assets/MulticolorFlower.jpeg';
+import BigStarFlower from"./assets/BigStarFlower.jpeg";
+import Toran from "./assets/YellowOrangeToran.jpeg"
 
-//import YellowOrangeToran from "./assets/YellowOrangeToran.jpeg";
+import Lotus from "./assets/Lotus.jpeg";
 
 import './index.css';
 
@@ -31,7 +31,15 @@ const App = () => {
     const initialProducts = [
                 { id: '13', name: 'Dandiya Special Rangoli', price: 950, imageUrl: DandiyaImage, description: 'Amazing dandiya Girl rangoli' },
                  { id: '14', name: 'Corner Design', price: 850, imageUrl:CornerFlower, description: 'Beautiful Corner Flower and leaves rangoli' },
-                 //{ id: '15', name: 'Traditional Toran', price: 350, imageUrl: YellowOrangeToran1, description: 'Yellow and Orange Frower Toran' },
+                 { id: '15', name: 'Traditional Toran', price: 350, imageUrl: Toran, description: 'Yellow and Orange Frower Toran' },
+                         { id: '16', name: 'DoorEntarance', price: 550, imageUrl: DoorEntarance, description: 'Door border rangoli.' },
+                                 { id: '17', name: 'MulticolorFlower ', price: 350, imageUrl: MulticolorFlower , description: 'Multicolour round Flower.' },
+                                         { id: '18', name: 'BigStarFlower', price: 450, imageUrl: BigStarFlower, description: 'Star flower.' },                                       
+                                           { id: '18', name: 'Lotus Flowers', price: 650, imageUrl: Lotus, description: 'Star flower.' },
+
+
+
+
 
 
 
@@ -46,7 +54,7 @@ const App = () => {
         { id: '5', name: 'Large Red & Yellow 8-Petal Flower', price: 300, imageUrl: LargeRedYellow8PetalFlower, description: 'A large, bold flower that makes a statement.' },
         { id: '6', name: 'Welcome ("सुस्वागतम्") Door Mat', price: 750, imageUrl: WelcomeDoorMat, description: 'A traditional "Welcome" mat for your doorstep.' },
         { id: '7', name: 'Peacock Design (large)', price: 650, imageUrl: PeacockDesignSmall, description: 'An elegant peacock design, perfect for smaller spaces.' },
-        { id: '8', name: 'Grand Peacock Rangoli (large)', price: 650, imageUrl: PecockDesignLarge, description: 'A grand and detailed peacock rangoli to impress your guests.' },
+        { id: '8', name: 'Grand Peacock Rangoli (large)', price: 650, imageUrl: PecockDesign, description: 'A grand and detailed peacock rangoli to impress your guests.' },
         { id: '9', name: 'Peacock (Small)', price: 550, imageUrl: PeacockSmall, description: 'A unique mandala design with a peacock at its center.' },
         { id: '10', name: 'Flower Stair Mats ( 6 flower Set)', price: 700, imageUrl: FlowerStairMatsSet, description: 'A set of 6 flower mats for decorating your stairs.' },
     ];
