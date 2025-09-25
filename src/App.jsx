@@ -1,6 +1,8 @@
-import React, { useState, useMemo, useRef, useEffect } from 'react';
-import PeacockDesignSmall from './assets/PeacockDesign.jpeg';
-import BigSwastikFlower from './assets/BigSwastikFlower.jpeg';
+
+import React, { useRef ,useState,useEffect,useMemo} from 'react';
+import CornerFlower  from './assets/CornerFlower.jpeg';
+//import YellowOrangeToran from '.assets/YellowOrangeToran.jpeg';
+
 import SmallStarFlower from './assets/SmallStarFlower.jpeg';
 import LargeRedYellow8PetalFlower from './assets/LargeRed&Yellow8PetalFlower1.jpeg';
 import WelcomeDoorMat from './assets/WelcomeDoorMat.jpeg';
@@ -12,11 +14,27 @@ import ToranDesign from './assets/ToranDesign.jpeg';
 import RoundFlowerRangoli from './assets/RoundFlowerRangoli.jpeg';
 import StarShapedRangoli from './assets/Star-shapedrangoli.jpeg';
 import LotusDesign  from './assets/LotusDesign.jpeg';
+import DandiyaImage from './assets/DandiyaImage.jpeg';
+import BigSwastikFlower from './assets/BigSwastikFlower.jpeg';
+ import PeacockDesignSmall from './assets/PeacockSmall.jpeg';
+//import DandiyaImages from './assets/DandiyaImages.jpeg';
+import CornerFlower1 from './assets/CornerFlower.jpeg';
+//import CornerFlower  from  './assets/CornerFlower.jpeg';
+//import YellowOrangeToran from "./assets/YellowOrangeToran.jpeg";
+
+//import YellowOrangeToran from "./assets/YellowOrangeToran.jpeg";
+
 import './index.css';
 
 const App = () => {
     // Product data moved to a separate file or outside the component for better practice
     const initialProducts = [
+                { id: '13', name: 'Dandiya Special Rangoli', price: 950, imageUrl: DandiyaImage, description: 'Amazing dandiya Girl rangoli' },
+                 { id: '14', name: 'Corner Design', price: 850, imageUrl:CornerFlower, description: 'Beautiful Corner Flower and leaves rangoli' },
+                 //{ id: '15', name: 'Traditional Toran', price: 350, imageUrl: YellowOrangeToran1, description: 'Yellow and Orange Frower Toran' },
+
+
+
         { id: '1', name: 'Kalash Design', price: 250, imageUrl: KalashDesign, description: 'Auspicious Kalash rangoli with Swastik, coconut, and mango leaves.' },
         { id: '2', name: 'Toran Design', price: 350, imageUrl: ToranDesign, description: 'Traditional toran with Lord face, and golden bells for Navratri festive decoration.' },
                 { id: '12', name: 'Lotus Design', price: 150, imageUrl: LotusDesign, description: 'Lotus Flower Design for Navratri festive decoration.' },
@@ -26,11 +44,11 @@ const App = () => {
         { id: '3', name: 'Small Star Flower', price: 150, imageUrl: SmallStarFlower, description: 'A beautiful flower with Swastick.' },
         { id: '4', name: 'Big Swastik Flower', price: 300, imageUrl: BigSwastikFlower, description: 'A vibrant flower with beautiful orange and white petals.' },
         { id: '5', name: 'Large Red & Yellow 8-Petal Flower', price: 300, imageUrl: LargeRedYellow8PetalFlower, description: 'A large, bold flower that makes a statement.' },
-        { id: '6', name: 'Welcome ("सुस्वागतम्") Door Mat', price: 700, imageUrl: WelcomeDoorMat, description: 'A traditional "Welcome" mat for your doorstep.' },
+        { id: '6', name: 'Welcome ("सुस्वागतम्") Door Mat', price: 750, imageUrl: WelcomeDoorMat, description: 'A traditional "Welcome" mat for your doorstep.' },
         { id: '7', name: 'Peacock Design (large)', price: 650, imageUrl: PeacockDesignSmall, description: 'An elegant peacock design, perfect for smaller spaces.' },
         { id: '8', name: 'Grand Peacock Rangoli (large)', price: 650, imageUrl: PecockDesignLarge, description: 'A grand and detailed peacock rangoli to impress your guests.' },
         { id: '9', name: 'Peacock (Small)', price: 550, imageUrl: PeacockSmall, description: 'A unique mandala design with a peacock at its center.' },
-        { id: '10', name: 'Flower Stair Mats (Set)', price: 700, imageUrl: FlowerStairMatsSet, description: 'A set of multiple flower mats for decorating your stairs.' },
+        { id: '10', name: 'Flower Stair Mats ( 6 flower Set)', price: 700, imageUrl: FlowerStairMatsSet, description: 'A set of 6 flower mats for decorating your stairs.' },
     ];
 
     const [products] = useState(initialProducts);
