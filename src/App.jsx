@@ -20,7 +20,12 @@ import DoorEntarance from './assets/DoorEntarnceBorder.jpeg';
 import CornerFlower1 from './assets/CornerFlower.jpeg';
 import MulticolorFlower  from  './assets/MulticolorFlower.jpeg';
 import BigStarFlower from"./assets/BigStarFlower.jpeg";
-import Toran from "./assets/YellowOrangeToran.jpeg"
+import Toran from "./assets/YellowOrangeToran.jpeg";
+import DiyaCombo from "./assets/DiyaCombo.jpeg";
+import DiyaDesign from "./assets/DiyaDesign.jpeg";
+import FlowerCombo from "./assets/FlowerCombo.jpeg";
+import SunflowerCombo from "./assets/SunflowerCombo.jpeg";
+
 
 import Lotus from "./assets/Lotus.jpeg";
 
@@ -37,6 +42,10 @@ const App = () => {
                                          { id: '18', name: 'BigStarFlower', price: 450, imageUrl: BigStarFlower, description: 'Star flower.' },                                       
                                            { id: '18', name: 'Lotus Flowers', price: 650, imageUrl: Lotus, description: 'Star flower.' },
 
+                                           { id: '18', name: 'DiyaCombo (6 pieces)', price: 600, imageUrl: DiyaCombo, description: 'Amazing Diya DEsign combo (120 per piece).' },
+                                           { id: '18', name: 'DiyaDesign (6 pieces)', price: 600, imageUrl: DiyaDesign, description: 'Amazing Diya DEsign combo (120 per piece)' },
+                                           { id: '18', name: 'FlowerCombo(6)', price: 700, imageUrl: FlowerCombo, description: 'Pink Green Flower (130rs per piece) .' },
+                                           { id: '18', name: 'SunFlowerCombo (6 pieces)', price: 700, imageUrl: SunflowerCombo, description: 'Sunflower design combo (150 rs per piece)' },
 
 
 
