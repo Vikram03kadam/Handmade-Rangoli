@@ -44,7 +44,7 @@ const App = () => {
 
                                            { id: '18', name: 'DiyaCombo (6 pieces)', price: 600, imageUrl: DiyaCombo, description: 'Amazing Diya DEsign combo (120 per piece).' },
                                            { id: '18', name: 'DiyaDesign (6 pieces)', price: 600, imageUrl: DiyaDesign, description: 'Amazing Diya DEsign combo (120 per piece)' },
-                                           { id: '18', name: 'FlowerCombo(6)', price: 700, imageUrl: FlowerCombo, description: 'Pink Green Flower (130rs per piece) .' },
+                                           { id: '18', name: 'FlowerCombo(6)', price: 700, imageUrl: FlowerCombo, description: 'Pink Green Flower (150rs per piece) .' },
                                            { id: '18', name: 'SunFlowerCombo (6 pieces)', price: 700, imageUrl: SunflowerCombo, description: 'Sunflower design combo (150 rs per piece)' },
 
 
